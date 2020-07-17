@@ -12,6 +12,10 @@ public class Door {
         this.key = key;
     }
 
+    public void openDoor(){
+        System.out.println("Door Opened");
+    }
+
     public int getWidth(){
         return width;
     }
@@ -28,5 +32,11 @@ public class Door {
         this.width = width;
     }
 
+    public void setHeight(int height){
+        this.height = height;
+    }
 
+    public void setKey(int key){
+        this.key = key;
+    }
 }
